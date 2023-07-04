@@ -1,0 +1,53 @@
+/* .body{
+    margin: auto;
+    padding: 2rem;
+} */
+
+div.scrollmenu {
+  /* background-color: #333; */
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu button {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 4px;
+  border: none;
+
+  text-decoration: none;
+  margin-right: 5px;
+}
+/* 
+div.scrollmenu button:hover {
+  background-color: #777;
+} */
+
+.dont-do {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin-top: 2rem;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.dos {
+  padding: 1rem;
+
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.dont {
+  padding: 1rem;
+
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid red;
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textureBackground {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(#000000 0.5px, #e5e5f7 0.5px);
+  background-size: 10px 10px;
+}
+
+.backgroundurl {
+  background: url("../src/assests/backurl.jpg");
+  background-position: center;
+}
